@@ -25,3 +25,5 @@ Exploratory analysis and creation of the best classification model will be descr
 11. The test set was classified and the main metric techniques were used to determine the best classifier. There was also the confusion matrix of the classifiers.
 
 ## Analysis of results
+
+The best classification model was made by the random forest algorithm.
