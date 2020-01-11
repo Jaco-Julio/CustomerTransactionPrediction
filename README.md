@@ -14,8 +14,10 @@ Exploratory analysis and creation of the best classification model will be descr
 
 1. The dataset from hd was loaded. Because of the file size we could not upload it to github.
 2. The labels were visualized and the imbalance was noticed. The label "non-transaction" was 89.95% of the dataset, and the label "transaction" was 10.05% of the dataset. This imbalance may result in overfitting or a bad classifier.
+![Imbalance Class](https://github.com/Jaco-Julio/CustomerTransactionPrediction/blob/master/img/imbalance_class.png "Imbalance Class")
 3. The dataset was divided into features and label.
 4. The balance was done with the SMOTE technique. This technique creates synthetic instances at random just like labels.
+![Balance Class](https://github.com/Jaco-Julio/CustomerTransactionPrediction/blob/master/img/balance_class.png "Balance Class")
 5. After the balance, the features and label were concatenated, and it was made a correlation matrix.
 6. There was a reduction of features and left only 38 features. Because I could not run the algorithm for lack of memory.
 7. The dataset was divided into training set and test set.
@@ -27,3 +29,11 @@ Exploratory analysis and creation of the best classification model will be descr
 ## Analysis of results
 
 The best classification model was made by the random forest algorithm.
+
+| Algorithm | ROC Score |
+| :--------: | :--------: |
+| Logistic Regression | 72,85% |
+| Gradient Boosting | 77,16% |
+| Random Forest | 84,95% |
+| AdaBoost | 74,62% |
+| GaussianNB | 77,58% |
